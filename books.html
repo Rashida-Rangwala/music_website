@@ -1,0 +1,308 @@
+<!Doctype html>
+<html>
+  <head>
+      <title>MMBFLIX</title>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="style.css">
+      
+      <!-- Bootstrap CSS Link -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+      
+      <!-- Bootstrap JavaScript Link -->    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+      <!-- Bootstrap icons Link -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+      
+      <!-- JavaScript File -->
+      <script src="main.js"></script>
+      
+  </head>
+<body class="bg-dark text-light" onload="showPage()" id="body">
+
+<div id="loader" class="position-fixed top-0 w-100 h-100 bg-dark">
+    <div class="spinner-border position-absolute top-50 start-50 text-danger"></div>
+</div>
+
+<!-- ----------------------Navbar ---------------------- -->
+ <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background: #212529">
+
+     <div class="container-fluid">
+         <a class="navbar-brand" href="#" style="color:red"><b>MMBFLIX</b></a>
+          <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="music.html">Music</a>
+                <a class="nav-link" href="movie.html">Movies</a>
+                <a class="nav-link" href="books.html">Books</a>
+              </div>
+         </div>
+     </div>
+ </nav>
+<div style="margin-bottom:60px;"></div>
+
+<!-- ----------------------Navbar ends---------------------- -->
+
+     
+<div class="container-fluid">      
+
+    
+    <div class="row g-3">
+        <!-- 1st Book -->
+        <div class="col-md-3" data-bs-toggle="modal" data-bs-target="#book1">
+            <div class="card border-0">
+                <img src="https://procodingclass.github.io/tynker-assets/thumbnails/book1.png">
+                <div class="card-body bg-dark bg-gradient">
+                    <h5>Andersen's Fairy Tales</h5>
+                    <p>Author: By Hans Christian Andersen</p>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="modal fade" id="book1">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content" >
+                <div class="modal-header text-dark">
+                  <h4>Andersen's Fairy Tales</h4>
+                  <button data-bs-dismiss="modal" class="btn-close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <iframe src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://procodingclass.github.io/tynker-assets/books/book1.pdf" >
+                    </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- 2nd Book -->
+        <div class="col-md-3" data-bs-toggle="modal" data-bs-target="#book2">
+            <div class="card border-0">
+                <img src="https://procodingclass.github.io/tynker-assets/thumbnails/book2.png">
+                <div class="card-body bg-dark bg-gradient">
+                    <h5>Aviation book</h5>
+                    <p>Author: Mcloughlin Brothers</p>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="modal fade" id="book2">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content" >
+                <div class="modal-header text-dark">
+                  <h4>Aviation book</h4>
+                  <button data-bs-dismiss="modal" class="btn-close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <iframe src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://procodingclass.github.io/tynker-assets/books/book2.pdf" >
+                    </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        
+        <!-- 3rd Book -->
+        <div class="col-md-3" data-bs-toggle="modal" data-bs-target="#book3">
+            <div class="card border-0">
+                <img src="https://procodingclass.github.io/tynker-assets/thumbnails/book3.png">
+                <div class="card-body bg-dark bg-gradient">
+                    <h5>Big Dummy's Guide to the Internet</h5>
+                    <p>Electronic Frontier Foundation</p>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="modal fade" id="book3">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content" >
+                <div class="modal-header text-dark">
+                  <h4>Big Dummy's Guide to the Internet</h4>
+                  <button data-bs-dismiss="modal" class="btn-close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <iframe src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://procodingclass.github.io/tynker-assets/books/book3.pdf" >
+                    </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        <!-- 4th Book -->
+        <div class="col-md-3" data-bs-toggle="modal" data-bs-target="#book4">
+            <div class="card border-0">
+                <img src="https://procodingclass.github.io/tynker-assets/thumbnails/book4.png">
+                <div class="card-body bg-dark bg-gradient">
+                    <h5>From the Earth to the Moon and Round the Moon</h5>
+                    <p>Author: Jules Verne</p>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="modal fade" id="book4">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content" >
+                <div class="modal-header text-dark">
+                  <h4>From the Earth to the Moon and Round the Moon</h4>
+                  <button data-bs-dismiss="modal" class="btn-close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <iframe src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://procodingclass.github.io/tynker-assets/books/book4.pdf" >
+                    </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        
+        <!-- 5th Book -->
+        <div class="col-md-3" data-bs-toggle="modal" data-bs-target="#book5">
+            <div class="card border-0">
+                <img src="https://procodingclass.github.io/tynker-assets/thumbnails/book5.png">
+                <div class="card-body bg-dark bg-gradient">
+                    <h5>The First Men in the Moon</h5>
+                    <p>Author: H. G. Wells</p>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="modal fade" id="book5">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content" >
+                <div class="modal-header text-dark">
+                  <h4>The First Men in the Moon</h4>
+                  <button data-bs-dismiss="modal" class="btn-close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <iframe src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://procodingclass.github.io/tynker-assets/books/book5.pdf" >
+                    </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        
+        <!-- 6th Book -->
+        <div class="col-md-3" data-bs-toggle="modal" data-bs-target="#book6">
+            <div class="card border-0">
+                <img src="https://procodingclass.github.io/tynker-assets/thumbnails/book6.png">
+                <div class="card-body bg-dark bg-gradient">
+                    <h5>The White House Cook Book</h5>
+                    <p>Author: Mrs. F.L. Gillette AND Hugo Ziemann</p>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="modal fade" id="book6">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content" >
+                <div class="modal-header text-dark">
+                  <h4>The White House Cook Book</h4>
+                  <button data-bs-dismiss="modal" class="btn-close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <iframe src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://procodingclass.github.io/tynker-assets/books/book6.pdf" >
+                    </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        
+        <!-- 7th Book -->
+        <div class="col-md-3" data-bs-toggle="modal" data-bs-target="#book7">
+            <div class="card border-0">
+                <img src="https://procodingclass.github.io/tynker-assets/thumbnails/book7.png">
+                <div class="card-body bg-dark bg-gradient">
+                    <h5>The Game of Logic</h5>
+                    <p>Author: Lewis Carroll</p>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="modal fade" id="book7">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content" >
+                <div class="modal-header text-dark">
+                  <h4>The Game of Logic</h4>
+                  <button data-bs-dismiss="modal" class="btn-close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <iframe src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://procodingclass.github.io/tynker-assets/books/book7.pdf" >
+                    </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        
+        <!-- 8th Book -->
+        <div class="col-md-3" data-bs-toggle="modal" data-bs-target="#book8">
+            <div class="card border-0">
+                <img src="https://procodingclass.github.io/tynker-assets/thumbnails/book8.png">
+                <div class="card-body bg-dark bg-gradient">
+                    <h5>The Wright Brothers</h5>
+                    <p>Author: Fred C. Kelly</p>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="modal fade" id="book8">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content" >
+                <div class="modal-header text-dark">
+                  <h4>The Wright Brothers</h4>
+                  <button data-bs-dismiss="modal" class="btn-close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <iframe src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://procodingclass.github.io/tynker-assets/books/book8.pdf" >
+                    </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+</div>
+</div>          
+  
+<footer class="container-fluid pt-2">
+      <p class="float-end">
+          <a href="#body" class="btn btn-warning">
+              <i class="bi bi-chevron-double-up"></i>
+          </a>
+      </p>
+       <p>© <span class="text-danger">MMBFLIX</span> All Rights Reserved</p>
+</footer>
+
+      
+  </body>
+</html>
